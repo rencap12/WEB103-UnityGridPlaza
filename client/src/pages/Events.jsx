@@ -10,9 +10,21 @@ const Events = () => {
     useEffect(() => {
         const fetchEvents = async () => {
             try {
-                const data = await getAllEvents();
-                setEvents(data);
-                setLoading(false);
+                const response = await fetch(`/api/events`);
+                if (!response.ok) {
+                    console.log('rip');
+                }
+                const eventsData = await response.json();
+    
+                console.log(eventsData);
+                // Ensure the data is an array before setting it
+                if (Array.isArray(eventsData)) {
+                    setEvents(eventsData);
+                    setLoading(false);
+                } else {
+                    console.error('Unexpected response format, expected an array');
+                    setEvents([]); // Set to empty array to avoid map errors
+                }  
             } catch (err) {
                 setError('Failed to fetch events');
                 setLoading(false);

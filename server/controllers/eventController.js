@@ -37,7 +37,7 @@ export const getListEvents = async (req, res) => {
         return res.status(404).json({ message: 'Event not found' });
     }
     console.log(result);
-    res.json(result.rows[0]);
+    res.json(result.rows);
 } catch (error) {
     console.error('Error fetching event:', error);
     res.status(500).json({ message: 'Internal server error' });
