@@ -20,8 +20,12 @@ The following **required** functionality is completed:
 - [x] **Clicking on a Location shows a list of all items from the Events table that corresponds to that Location**
 - [x] **Each Location detail page should have its own unique URL**
 
-The following **optional** features are implemented:
+![Screenshot 2024-10-09 234731](https://github.com/user-attachments/assets/6fcdda1e-83b7-4332-8102-d12909e56f2e)
 
+
+![Screenshot 2024-10-09 234800](https://github.com/user-attachments/assets/3de7d9a2-970b-4d6a-a242-27ca2dfb7376)
+
+The following **optional** features are implemented:
 - [ ] An additional page shows all possible `Events` that the user can sort and filter by `Location`
 - [ ] `Events` display a countdown showing the time remaining before that event and appears with different formatting when the event has passed
 
