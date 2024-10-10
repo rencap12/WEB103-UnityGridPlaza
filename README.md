@@ -1,10 +1,10 @@
-# WEB103 Project 3 - *Name of App Here*
+# WEB103 Project 3 - *Unity Grid Plaza*
 
-Submitted by: **Your name here**
+Submitted by: **Reneca Capuno**
 
-About this web app: **App description here**
+About this web app: **An interactive website that provides event information for several locations**
 
-Time spent: **X** hours
+Time spent: **8** hours
 
 ## Required Features
 
@@ -12,13 +12,13 @@ The following **required** functionality is completed:
 
 <!-- Make sure to check off completed functionality below -->
 
-- [ ] **The web app uses React to display data from the API**
-- [ ] **The web app is connected to a PostgreSQL database, with an appropriately structured Events table**
-  - [ ] **NOTE: Your GIF or a screenshot added to this README must include a view of your Railway database that shows the contents of the table used by your app**
-- [ ] **The web app displays the title of the app**
-- [ ] **A visual interface allows the user to select a Location they would like to view**
-- [ ] **Clicking on a Location shows a list of all items from the Events table that corresponds to that Location**
-- [ ] **Each Location detail page should have its own unique URL**
+- [x] **The web app uses React to display data from the API**
+- [x] **The web app is connected to a PostgreSQL database, with an appropriately structured Events table**
+  - [x] **NOTE: Your GIF or a screenshot added to this README must include a view of your Railway database that shows the contents of the table used by your app**
+- [x] **The web app displays the title of the app**
+- [x] **A visual interface allows the user to select a Location they would like to view**
+- [x] **Clicking on a Location shows a list of all items from the Events table that corresponds to that Location**
+- [x] **Each Location detail page should have its own unique URL**
 
 The following **optional** features are implemented:
 
@@ -33,10 +33,10 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzFtdTNrYjZtNWlzdXlyOXF2OThtNjh4ZHdqM2UxZjE1bHlkazE5eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XLCeHG3ymEVbhEcGWF/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  GIF tool here
+GIF created with ...  LICEcap
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -45,10 +45,12 @@ GIF created with ...  GIF tool here
 ## Notes
 
 Describe any challenges encountered while building the app or any additional context you'd like to add.
+- Understanding previous code
+- Management of interactions
 
 ## License
 
-Copyright [yyyy] [name of copyright owner]
+Copyright [2024] [Reneca Capuno]
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
